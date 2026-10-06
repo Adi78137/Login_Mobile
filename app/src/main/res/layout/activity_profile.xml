@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/foto_profil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/foto_profil_adi"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nama_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adi Karunia"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat datang di halaman utama!"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
